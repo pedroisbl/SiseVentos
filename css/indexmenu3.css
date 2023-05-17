@@ -1,0 +1,153 @@
+body{
+
+  background-color:blueviolet;
+
+   
+
+}
+
+
+
+
+
+ h1{
+
+   
+
+ font-weight: bold;
+
+ text-align: center;
+
+ padding: 30px;
+
+ font-style:arial;
+
+ background-color: plum;
+
+ font-style: oblique;
+
+ 
+
+ 
+
+}
+
+
+
+
+
+#menuNavHorizontal{
+
+  position: absolute;
+
+  top:108px;
+
+  left: 70%;
+
+  margin: 0px;
+
+}
+
+#menuNavHorizontal ul{
+
+  list-style: none;
+
+  margin: 0px;
+
+  padding: 0px;
+
+}
+
+#menuNavHorizontal ul li{
+
+  width: 120px;
+
+  height: 35px;
+
+  background-color: purple;
+
+  border-right: 1px solid rgb(255, 255, 255);
+
+  border-bottom: 1px solid #aecbfa;
+
+  float: left;
+
+   
+
+}
+
+#menuNavHorizontal ul li a{
+
+  text-decoration: none;
+
+  text-align: center;
+
+  color: #fff;
+
+  font-size: 14px;
+
+  display: block;
+
+  width: 120px;
+
+  height: 35px;
+
+  line-height: 35px;
+
+  font-weight: bold;
+
+  font-family: negrito;
+
+}
+
+#menuNavHorizontal ul li:hover{
+
+  background-color: #fff;
+
+}
+
+#menuNavHorizontal ul li:hover a{
+
+  color: #507f94;
+
+}
+
+#menuNavHorizontal li li{
+
+  border-bottom-left-radius: 0px; 
+
+  border-bottom-right-radius: 0px;
+
+  border-left: none;
+
+  border-right: none;
+
+  display: none;
+
+  width: 110px;
+
+  height: 30px;
+
+  padding: 10px 5px 10px 5px;
+
+}
+
+#menuNavHorizontal ul li:hover li{
+
+  display: block;
+
+  border-top: 1px solid #cedce2;
+
+  border-bottom: 1px solid #cedce2;
+
+  background-color: #fff;
+
+}
+
+
+
+#menuNavHorizontal ul li li:hover{
+
+  background-color: #cedce2;
+
+}
